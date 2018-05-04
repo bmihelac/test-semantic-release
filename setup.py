@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='MyPackageName',
+    name='test-semantic-release',
     version='1.1.0',
     url='https://github.com/bmihelac/test-semantic-release/',
     author='Bojan Mihelac',
