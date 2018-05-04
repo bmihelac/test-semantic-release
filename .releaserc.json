@@ -6,7 +6,7 @@
     },
     {
       "path": "@semantic-release/exec",
-      "cmd": "./set-version ${nextRelease.version}"
+      "cmd": "bumpversion --new-version=${nextRelease.version} minor setup.py"
     },
     "@semantic-release/git"
   ],
