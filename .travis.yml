@@ -1,7 +1,16 @@
 language: python
 python:
     - "3.6"
-install:
-    - pip install -r requirements_test.txt
-script:
-    py.test
+jobs:
+  include:
+    - stage: test
+        install:
+            - pip install -r requirements_test.txt
+        script:
+            py.test
+    - stage: release
+      deploy:
+          provider: script
+          script:
+              - nvm install lts/*
+              - npx semantic-release
