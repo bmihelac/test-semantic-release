@@ -10,7 +10,8 @@
     },
     {
         "path": "@semantic-release/git",
-        "assets": ["setup.py", "CHANGELOG.md"]
+        "assets": ["setup.py", "CHANGELOG.md"],
+        "successComment": "This ${issue.pull_request ? 'pull request' : 'issue'} is included in version ${nextRelease.version}"
     }
   ],
   "publish": [
