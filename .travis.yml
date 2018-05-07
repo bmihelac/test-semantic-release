@@ -12,6 +12,7 @@ jobs:
       deploy:
           provider: script
           skip_cleanup: true
+          install:
           script:
               - nvm install lts/*
               - npx semantic-release
