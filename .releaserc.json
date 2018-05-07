@@ -8,7 +8,10 @@
       "path": "@semantic-release/exec",
       "cmd": "bumpversion --allow-dirty --current-version=${lastRelease.version} --new-version=${nextRelease.version} minor setup.py"
     },
-    "@semantic-release/git"
+    {
+        "path": "@semantic-release/git",
+        "assets": ["setup.py", "CHANGELOG.md"]
+    }
   ],
   "publish": [
     "@semantic-release/github"
