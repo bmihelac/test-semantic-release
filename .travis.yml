@@ -13,6 +13,7 @@ jobs:
           provider: script
           skip_cleanup: true
           install:
+              - pip install -r requirements_ci.txt
           script:
               - nvm install lts/*
               - npx semantic-release
