@@ -1,3 +1,11 @@
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/bmihelac/test-semantic-release/compare/v2.3.0...v2.4.0) (2018-05-07)
+
+
+### Features
+
+* publish package ([ac10501](https://github.com/bmihelac/test-semantic-release/commit/ac10501))
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/bmihelac/test-semantic-release/compare/v2.2.3...v2.3.0) (2018-05-07)
 
