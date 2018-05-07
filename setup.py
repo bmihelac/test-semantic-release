@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='test-semantic-release',
-    version='2.0.0',
+    version='2.0.1',
     url='https://github.com/bmihelac/test-semantic-release/',
     author='Bojan Mihelac',
     author_email='bmihelac@mihelac.org',
