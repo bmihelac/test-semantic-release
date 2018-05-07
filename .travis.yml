@@ -1,0 +1,20 @@
+language: python
+python:
+    - "3.6"
+jobs:
+  include:
+
+    - stage: test
+      install:
+          - pip install -r requirements_test.txt
+      script: py.test
+    - stage: release
+      install:
+          - pip install -r requirements_ci.txt
+      script: skip
+      deploy:
+          provider: script
+          skip_cleanup: true
+          script:
+              - nvm install lts/*
+              - npx semantic-release
