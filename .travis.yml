@@ -3,14 +3,15 @@ python:
     - "3.6"
 jobs:
   include:
+
     - stage: test
-        install:
-            - pip install -r requirements_test.txt
-        script:
-            py.test
+      install:
+          - pip install -r requirements_test.txt
+      script: py.test
     - stage: release
       deploy:
           provider: script
+          skip_cleanup: true
           script:
               - nvm install lts/*
               - npx semantic-release
