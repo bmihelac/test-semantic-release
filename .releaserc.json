@@ -15,5 +15,8 @@
   ],
   "publish": [
     "@semantic-release/github"
+  ],
+  "success": [
+    "@semantic-release/github"
   ]
 }
