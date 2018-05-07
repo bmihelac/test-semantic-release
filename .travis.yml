@@ -11,6 +11,7 @@ jobs:
     - stage: release
       install:
           - pip install -r requirements_ci.txt
+      script: skip
       deploy:
           provider: script
           skip_cleanup: true
