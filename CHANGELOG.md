@@ -1,3 +1,11 @@
+<a name="1.2.2"></a>
+## [1.2.2](https://github.com/bmihelac/test-semantic-release/compare/v1.2.1...v1.2.2) (2018-05-07)
+
+
+### Bug Fixes
+
+* test release ([afc7d71](https://github.com/bmihelac/test-semantic-release/commit/afc7d71))
+
 <a name="1.2.1"></a>
 ## [1.2.1](https://github.com/bmihelac/test-semantic-release/compare/v1.2.0...v1.2.1) (2018-05-07)
 
