@@ -1,3 +1,11 @@
+<a name="2.3.0"></a>
+# [2.3.0](https://github.com/bmihelac/test-semantic-release/compare/v2.2.3...v2.3.0) (2018-05-07)
+
+
+### Features
+
+* update readme ([9df0d28](https://github.com/bmihelac/test-semantic-release/commit/9df0d28))
+
 <a name="2.2.3"></a>
 ## [2.2.3](https://github.com/bmihelac/test-semantic-release/compare/v2.2.2...v2.2.3) (2018-05-07)
 
