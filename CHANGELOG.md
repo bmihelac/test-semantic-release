@@ -1,3 +1,11 @@
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/bmihelac/test-semantic-release/compare/v1.2.0...v1.2.1) (2018-05-07)
+
+
+### Bug Fixes
+
+* include setup.py in release ([007ab7c](https://github.com/bmihelac/test-semantic-release/commit/007ab7c))
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/bmihelac/test-semantic-release/compare/v1.1.2...v1.2.0) (2018-05-07)
 
