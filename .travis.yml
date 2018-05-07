@@ -13,6 +13,7 @@ jobs:
           - nvm install lts/*
       install:
           - pip install -r requirements_ci.txt
+          - npm install
       script: skip
       deploy:
           provider: script
