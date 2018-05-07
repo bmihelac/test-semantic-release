@@ -1,3 +1,11 @@
+<a name="2.1.3"></a>
+## [2.1.3](https://github.com/bmihelac/test-semantic-release/compare/v2.1.2...v2.1.3) (2018-05-07)
+
+
+### Bug Fixes
+
+* fix bug ([#3](https://github.com/bmihelac/test-semantic-release/issues/3)) ([90fcb3d](https://github.com/bmihelac/test-semantic-release/commit/90fcb3d))
+
 <a name="2.1.2"></a>
 ## [2.1.2](https://github.com/bmihelac/test-semantic-release/compare/v2.1.1...v2.1.2) (2018-05-07)
 
