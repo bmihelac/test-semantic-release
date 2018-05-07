@@ -6,15 +6,12 @@
     },
     {
       "path": "@semantic-release/exec",
-      "cmd": "bumpversion --new-version=${nextRelease.version} minor setup.py"
+      "cmd": "bumpversion --allow-dirty --current-version=${lastRelease.version} --new-version=${nextRelease.version} minor setup.py"
     },
     "@semantic-release/git"
   ],
   "publish": [
     "@semantic-release/github",
-    {
-      "path": "@semantic-release/exec",
-      "cmd": "./publish-package"
-    }
+    "@semantic-release/git"
   ]
 }
