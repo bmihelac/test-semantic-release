@@ -3,14 +3,14 @@
   "prepare": [
     {
       "path": "@semantic-release/exec",
+      "cmd": "echo \"__version__ = '${nextRelease.version}'\" > test_semantic_release/__init__.py"
+    },
+    {
+      "path": "@semantic-release/exec",
       "cmd": "python setup.py sdist bdist_wheel"
     },
     {
       "path": "@semantic-release/changelog"
-    },
-    {
-      "path": "@semantic-release/exec",
-      "cmd": "echo \"__version__ = '${nextRelease.version}'\" > test_semantic_release/__init__.py"
     },
     {
         "path": "@semantic-release/git",
