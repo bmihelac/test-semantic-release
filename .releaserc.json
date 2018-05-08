@@ -10,16 +10,16 @@
     },
     {
         "path": "@semantic-release/git",
-        "assets": ["setup.py", "CHANGELOG.md"],
+        "assets": ["test_semantic_release/__init__.py", "setup.py", "CHANGELOG.md"],
         "successComment": "This ${issue.pull_request ? 'pull request' : 'issue'} is included in version ${nextRelease.version}"
     }
   ],
   "publish": [
-    "@semantic-release/github",
     {
       "path": "@semantic-release/exec",
       "cmd": "python setup.py sdist bdist_wheel && twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
-    }
+    },
+    "@semantic-release/github"
   ],
   "success": [
     "@semantic-release/github"
