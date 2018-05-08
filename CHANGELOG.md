@@ -1,3 +1,12 @@
+<a name="2.9.1"></a>
+## [2.9.1](https://github.com/bmihelac/test-semantic-release/compare/v2.9.0...v2.9.1) (2018-05-08)
+
+
+### Bug Fixes
+
+* build ([93bce71](https://github.com/bmihelac/test-semantic-release/commit/93bce71))
+* move setup to prepare phase ([86f2d19](https://github.com/bmihelac/test-semantic-release/commit/86f2d19))
+
 <a name="2.9.0"></a>
 # [2.9.0](https://github.com/bmihelac/test-semantic-release/compare/v2.8.0...v2.9.0) (2018-05-08)
 
