@@ -6,7 +6,7 @@
     },
     {
       "path": "@semantic-release/exec",
-      "cmd": "bumpversion --allow-dirty --current-version=${lastRelease.version} --new-version=${nextRelease.version} minor setup.py"
+      "cmd": "echo \"__version__ = '\${nextRelease.version}'\" > test_semantic_version/__init__.py"
     },
     {
         "path": "@semantic-release/git",
