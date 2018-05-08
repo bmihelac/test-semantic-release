@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-VERSION = __import__("import_export").__version__
+VERSION = __import__("test_semantic_release").__version__
 
 setup(
     name='test-semantic-release',
