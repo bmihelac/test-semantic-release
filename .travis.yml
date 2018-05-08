@@ -13,7 +13,7 @@ jobs:
       before_install:
           - nvm install lts/*
       install:
-          - pip install -r requirements_ci.txt
+          - pip install wheel twine
           - npm install
       script: skip
       deploy:
