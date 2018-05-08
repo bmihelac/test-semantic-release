@@ -1,3 +1,12 @@
+<a name="2.9.0"></a>
+# [2.9.0](https://github.com/bmihelac/test-semantic-release/compare/v2.8.0...v2.9.0) (2018-05-08)
+
+
+### Features
+
+* test broken release ([8603153](https://github.com/bmihelac/test-semantic-release/commit/8603153))
+* test broken release ([cdb150e](https://github.com/bmihelac/test-semantic-release/commit/cdb150e))
+
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/bmihelac/test-semantic-release/compare/v2.7.2...v2.8.0) (2018-05-08)
 
