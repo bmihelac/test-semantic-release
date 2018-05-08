@@ -1,3 +1,12 @@
+<a name="2.5.1"></a>
+## [2.5.1](https://github.com/bmihelac/test-semantic-release/compare/v2.5.0...v2.5.1) (2018-05-07)
+
+
+### Bug Fixes
+
+* bug ([cdd5bd7](https://github.com/bmihelac/test-semantic-release/commit/cdd5bd7))
+* test broken build ([d65ec28](https://github.com/bmihelac/test-semantic-release/commit/d65ec28))
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/bmihelac/test-semantic-release/compare/v2.4.0...v2.5.0) (2018-05-07)
 
