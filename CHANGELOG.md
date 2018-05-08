@@ -1,3 +1,11 @@
+<a name="2.9.2"></a>
+## [2.9.2](https://github.com/bmihelac/test-semantic-release/compare/v2.9.1...v2.9.2) (2018-05-08)
+
+
+### Bug Fixes
+
+* build ([fcd0112](https://github.com/bmihelac/test-semantic-release/commit/fcd0112))
+
 <a name="2.9.1"></a>
 ## [2.9.1](https://github.com/bmihelac/test-semantic-release/compare/v2.9.0...v2.9.1) (2018-05-08)
 
