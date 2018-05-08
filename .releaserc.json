@@ -6,7 +6,7 @@
     },
     {
       "path": "@semantic-release/exec",
-      "cmd": "echo \"__version__ = '\${nextRelease.version}'\" > test_semantic_version/__init__.py"
+      "cmd": "echo \"__version__ = '\\${nextRelease.version}'\" > test_semantic_version/__init__.py"
     },
     {
         "path": "@semantic-release/git",
